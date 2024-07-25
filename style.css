@@ -1,0 +1,96 @@
+*{
+  box-sizing: content-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #29292E ;
+  font-family: "Open Sans", sans-serif;
+  padding: 80px 80px;
+}
+
+#page{
+  background: #FFF;
+  max-width:1280px;
+  margin: auto;
+}
+
+.title{
+  color: #E1624F;
+  padding: 88px 80px 8px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#turismo h1{
+  font-size: 36px;
+  font-weight: bold;
+  color: #1B1B1B;
+  padding: 0px 80px 40px ;
+}
+
+#turismo img{
+  border-radius: 28px;
+  margin-left: 80px;
+  margin-top: 48px;
+}
+
+.busan{
+  width: 1120px;
+  height: 660px;
+}
+
+.subtitle{
+  text-align: center;
+  font-style: italic;
+  padding: 24px 80px 44px ;
+  
+  
+}
+.separador{
+  border-bottom: 1px solid #d9d9d9;
+  width: 1120px;
+  margin: auto;
+  } 
+#turismo strong{
+  margin-bottom: 48px;
+}
+.content{
+  padding: 8px 80px 0;
+
+}
+
+.content a{
+  text-decoration: none;
+}
+
+.roxo{
+  color: #591B98;
+}
+
+.pink{
+  color: #E5245E;
+}
+
+.orange{
+  color: #E95E10;
+  
+}
+
+#turismo p:nth-of-type(5n) {
+  /* color: lime; */
+  margin-bottom: 40px;
+}
+
+
+footer{
+  text-align: center;
+  padding-bottom: 48px;
+}
+footer img{
+  vertical-align: middle;
+  
+}
+
